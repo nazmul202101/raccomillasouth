@@ -1,0 +1,136 @@
+.member_body{
+    background-color: darkgray;
+}
+.club-name {
+    font-family: agency FB;
+}
+.container_header{
+    ;
+    
+    align-items: flex-start;
+}
+.header-area {
+    padding: 10px;
+    background-color: #231F20;
+}
+.flex-box{
+    display: flex;
+}
+/**Search Box Start **/
+* {
+  box-sizing: border-box;
+}
+.searchform {
+  display: block;
+  margin: 0;
+  overflow: hidden;
+  width: 50%;
+}
+label, input {
+  vertical-align: baseline;
+  color: #737373;
+}
+label {
+  margin: 0.125em 0.125em 0 0;
+  float: right;
+  
+}
+input[type="search"] {
+  border: 2px solid #737373;
+  border-width: 0 0 3px;
+  background-color: transparent;
+  font: 22px "Open Sans", sans-serif;
+  padding: 0.125em 0.225em;
+  width: 85%;
+  float: right;
+  
+}
+input[type="search"]:focus {
+  color: #E18728;
+  border-color: #E18728;
+  outline: none;
+}
+/**Search Box End **/
+
+.club-name{
+    border-top: 5px solid red;
+    color: white;
+}
+.top_text{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+.single_member{
+    background-color: aqua;
+    font-size: 10px;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+
+.single_member_bg{
+    background-color: fuchsia;
+}
+
+.member_image{
+
+}
+.member_image img{
+    border-radius: 50%;
+}
+.member_image p{
+    font-size:20px;
+    color: white;
+display: inline-block;
+    float: left;
+
+}
+
+
+
+.footer_area {
+    padding: 5px;
+    font-family: agency FB;
+    color: white;
+    font-size: 20px;
+    background-color: #57585f;
+}
+.footer_area a{
+    color:lawngreen;
+}
+
+.design_by{
+    border-top: 5px solid green;
+    padding: 5px;
+}
+//FooterEnd
+
+//Slider_Start
+.aslide {
+    display: none;
+}
+
+.aslide img {
+    max-width: 100%;
+}
+
+.aslider {
+    width: 90%;
+    height: 1200px;
+}
+
+.aslide .text {
+    margin: 0 auto;
+    color: #f8f8f8;
+    text-shadow: 0 0 2px #000;
+    font-weight: bold;
+    font-size: 36px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 30px;
+    font-family: sans-serif;
+}
+
+//Slider_End
